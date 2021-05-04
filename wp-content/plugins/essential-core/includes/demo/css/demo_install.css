@@ -1,0 +1,20 @@
+.demo_imports{
+
+}
+.demo_imports label{
+    line-height: 30px;
+}
+.demo_imports .loader{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    background-size: cover;
+}
+.demo_imports .loader.loading{
+    background-image: url(img/loader.gif);
+}
+.demo_imports .loader.complete{
+    background-image: url(img/complete.png);
+}
